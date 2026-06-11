@@ -1,26 +1,182 @@
 @import "tailwindcss";
 
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-ink: #0a1828;
+  --color-ink-soft: #475569;
+  --color-bg-soft: #f0f7ff;
+  --color-ice-50: #e0f2fe;
+  --color-blue-electric: #0066ff;
+  --color-sky-glow: #0ea5e9;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #ffffff;
+  --bg-soft: #f0f7ff;
+  --ink: #0a1828;
+  --ink-soft: #475569;
+  --ice-50: #e0f2fe;
+  --ice-100: #bae6fd;
+  --ice-300: #38bdf8;
+  --blue: #0ea5e9;
+  --blue-deep: #0066ff;
+  --frost: rgba(255, 255, 255, 0.72);
+  /* legacy utilities */
+  --navy: var(--ink);
+  --cream: var(--bg-soft);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+  background-image: radial-gradient(
+      ellipse 120% 80% at 50% -20%,
+      rgba(224, 242, 254, 0.75),
+      transparent 55%
+    ),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 35%, var(--bg) 100%);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glass */
+.glass-frost {
+  background: var(--frost);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px rgba(10, 24, 40, 0.06);
+}
+
+.glass-frost-dark {
+  background: rgba(10, 24, 40, 0.35);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* 3D card */
+.card-3d-scene {
+  perspective: 1000px;
+}
+
+.card-3d-inner {
+  position: relative;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.card-3d-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-3d-front,
+.card-3d-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-3d-back {
+  transform: rotateY(180deg);
+}
+
+/* Snow — keyframes (flocons en pur CSS) */
+@keyframes snow-fall {
+  0% {
+    transform: translate3d(0, -10vh, 0) rotate(0deg);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate3d(8px, 110vh, 0) rotate(360deg);
+    opacity: 0.3;
+  }
+}
+
+.snowflake {
+  position: absolute;
+  top: -2rem;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
+  animation: snow-fall linear infinite;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .snowflake {
+    animation: none !important;
+    opacity: 0 !important;
+  }
+}
+
+/* Hint pulse */
+@keyframes hint-pulse {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.hint-pulse {
+  animation: hint-pulse 2s ease-in-out infinite;
+}
+
+@keyframes special-offer-shimmer {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.special-offer-shimmer {
+  background: linear-gradient(
+    110deg,
+    #f59e0b,
+    #fbbf24,
+    #fde68a,
+    #f59e0b,
+    #d97706
+  );
+  background-size: 300% 300%;
+  animation: special-offer-shimmer 4s ease-in-out infinite;
+}
+
+/* Cursor blob (réduit motion géré en JS) */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ice-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--blue), var(--blue-deep));
+  border-radius: 4px;
 }

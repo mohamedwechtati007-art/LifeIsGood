@@ -1,0 +1,271 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Service",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "quote": "Devis gratuit",
+    "offerCta": "Offre Parc industriel"
+  },
+  "specialOfferHero": {
+    "badge": "Offre spéciale",
+    "title": "Parc industriel d'Orléans / Innes-Est",
+    "titleLine1": "Déneigement commercial",
+    "titleLine2": "Orléans",
+    "subtitle": "Tarif avantageux pour le Parc industriel et Innes-Est — service fiable 24/7 pour tout Orléans.",
+    "zone": "Déneigement commercial pour tout Orléans — offre spéciale ci-dessus",
+    "ctaOffer": "Voir l'offre spéciale",
+    "ctaQuote": "Devis gratuit",
+    "ctaCall": "Appeler",
+    "stats": [
+      { "value": "2.5 cm", "label": "Intervention dès accumulation" },
+      { "value": "7j/7", "label": "Disponible en saison" },
+      { "value": "Orléans", "label": "Zone desservie" }
+    ]
+  },
+  "hero": {
+    "badge": "Service professionnel & assuré",
+    "title": "Votre déneigement,",
+    "titleHighlight": "notre priorité.",
+    "subtitle": "Déneigement commercial à Orléans — service fiable 24/7 pour entreprises et zones industrielles.",
+    "cta": "Obtenir un devis gratuit",
+    "ctaSecondary": "Voir notre service",
+    "stats": {
+      "items": [
+        { "value": "2.5 cm", "label": "Intervention dès accumulation" },
+        { "value": "Orléans", "label": "Zone desservie" },
+        { "value": "7j/7", "label": "Disponible en saison" },
+        { "value": "Local", "label": "Équipe de proximité" }
+      ]
+    }
+  },
+  "services": {
+    "title": "Notre service",
+    "subtitle": "Un seul service, entièrement dédié au déneigement commercial",
+    "commercial": {
+      "title": "Déneigement commercial",
+      "desc": "Stationnements, accès commerciaux et zones industrielles. Service prioritaire 24/7 pour assurer la sécurité de vos clients, employés et visiteurs."
+    },
+    "features": [
+      "Stationnements commerciaux",
+      "Accès et voies de circulation",
+      "Zones industrielles",
+      "Immeubles à bureaux",
+      "Commerces et centres commerciaux",
+      "Contrats saisonniers"
+    ],
+    "cta": "Demander un devis"
+  },
+  "timeline": {
+    "progressRail": "Parcours",
+    "title": "Comment ça marche ?",
+    "subtitle": "De la demande au stationnement dégagé — 5 étapes simples",
+    "steps": [
+      {
+        "title": "Demande de devis",
+        "desc": "Remplissez notre formulaire en ligne ou appelez-nous. Devis gratuit et sans engagement, réponse rapide."
+      },
+      {
+        "title": "Contrat & planification",
+        "desc": "Nous établissons votre contrat saisonnier et configurons votre adresse dans notre système d'intervention automatique."
+      },
+      {
+        "title": "Surveillance météo",
+        "desc": "Notre équipe surveille les prévisions 24h/24. Dès qu'une accumulation de neige est prévue, nous planifions l'intervention."
+      },
+      {
+        "title": "Intervention rapide",
+        "desc": "Nos équipes interviennent après chaque tempête. Stationnements et accès commerciaux dégagés pour maintenir vos opérations."
+      },
+      {
+        "title": "Rapport & satisfaction",
+        "desc": "Notification envoyée après chaque intervention. Si vous n'êtes pas satisfait, nous revenons gratuitement sous 24h."
+      }
+    ],
+    "cta": "Demander un devis"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Des entreprises du parc industriel et du secteur Innes-Est nous font confiance",
+    "items": [
+      {
+        "name": "Marie Lavoie",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "Service impeccable tout l'hiver pour notre commerce sur Innes-Est. Stationnement toujours prêt à l'ouverture. Je recommande sans hésiter."
+      },
+      {
+        "name": "Jean-Pierre Gagnon",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "Nous avons signé un contrat pour notre stationnement de 80 places au parc industriel. Intervention rapide, professionnelle et sans interruption. Parfait !"
+      },
+      {
+        "name": "Sophie Côté",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "L'offre spéciale Innes-Est est vraiment avantageuse. Service local, réactif et toujours à l'heure après chaque tempête."
+      },
+      {
+        "name": "Alexandre Bouchard",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "Le contrat saisonnier est vraiment avantageux. Je n'ai plus à me soucier de la neige du tout. Je reçois une notification à chaque intervention. Excellent service !"
+      }
+    ]
+  },
+  "promises": {
+    "title": "Votre tranquillité, notre engagement",
+    "subtitle": "Un service pensé pour vous simplifier l'hiver",
+    "items": [
+      {
+        "title": "Service fiable 24/7",
+        "desc": "Un service fiable 24/7, avec des passages fréquents pour garder vos accès toujours dégagés."
+      },
+      {
+        "title": "À l'écoute de vos besoins",
+        "desc": "Un service à la clientèle à l'écoute, toujours prêt à répondre à vos besoins."
+      },
+      {
+        "title": "Notification avant passage",
+        "desc": "Un système de notification pour vous prévenir avant l'arrivée du tracteur."
+      }
+    ]
+  },
+  "serviceAreas": {
+    "eyebrow": "Zone desservie",
+    "title": "Orléans uniquement",
+    "subtitle": "Nous concentrons notre service de déneigement commercial sur le secteur d'Orléans.",
+    "mainArea": "Orléans, Ontario",
+    "cta": "Demander l'offre spéciale",
+    "specialOffer": {
+      "badge": "Offre spéciale",
+      "title": "Parc industriel d'Orléans / Innes-Est",
+      "desc": "Tarif avantageux pour les entreprises situées dans le secteur du Parc industriel d'Orléans et sur Innes-Est."
+    }
+  },
+  "quote": {
+    "title": "Obtenez votre devis gratuit",
+    "subtitle": "Déneigement commercial à Orléans — réponse rapide, sans engagement. Intervention dès 2.5 cm de neige.",
+    "specialOffer": {
+      "badge": "Offre spéciale",
+      "teaser": "Parc industriel ou Innes-Est ? Tarif avantageux sur demande.",
+      "expand": "Voir l'offre",
+      "collapse": "Masquer",
+      "apply": "J'en profite",
+      "applied": "Offre ajoutée",
+      "title": "Parc industriel d'Orléans / Innes-Est",
+      "desc": "Tarif préférentiel pour les entreprises situées dans le parc industriel ou sur Innes-Est. Le devis reste ouvert à tout Orléans.",
+      "messagePrefix": "[OFFRE SPÉCIALE — Parc industriel / Innes-Est] Je souhaite profiter du tarif avantageux pour mon établissement situé dans ce secteur.",
+      "emailSubject": "[Offre Parc/Innes-Est] Demande de devis déneigement"
+    },
+    "name": "Nom complet",
+    "email": "Adresse email",
+    "phone": "Téléphone",
+    "from": "Adresse du site commercial",
+    "to": "Ville / Secteur",
+    "date": "Date de début souhaitée",
+    "type": "Type d'établissement",
+    "requestType": "Type de demande",
+    "surface": "Surface approximative",
+    "surfacePlaceholder": "Ex. stationnement 40 places, 2 accès camions",
+    "typeOptions": {
+      "parking": "Stationnement commercial",
+      "retail": "Commerce de détail",
+      "office": "Immeuble de bureaux",
+      "industrial": "Zone industrielle",
+      "mall": "Centre commercial"
+    },
+    "requestOptions": {
+      "seasonal": "Contrat saisonnier",
+      "oneTime": "Intervention ponctuelle",
+      "emergency": "Urgence après tempête"
+    },
+    "message": "Informations supplémentaires (surface, accès, spécificités...)",
+    "submit": "Ouvrir Gmail et envoyer",
+    "submitting": "Ouverture de Gmail...",
+    "submitHint": "Gmail s'ouvre avec votre demande déjà remplie — il ne reste qu'à cliquer sur Envoyer.",
+    "success": "Gmail est ouvert avec votre demande.",
+    "successHint": "Dans Gmail, vérifiez le message puis cliquez sur Envoyer. Nous vous répondrons rapidement.",
+    "successOpenGmail": "Rouvrir Gmail",
+    "emailSubject": "Nouvelle demande de devis déneigement",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Email invalide"
+  },
+  "gallery": {
+    "title": "Notre galerie",
+    "subtitle": "Découvrez nos réalisations hivernales",
+    "close": "Fermer",
+    "captions": {
+      "photo1": "Stationnement dégagé",
+      "photo2": "Accès commercial",
+      "photo3": "Zone industrielle",
+      "photo4": "Intervention nocturne",
+      "photo5": "Grand stationnement",
+      "photo6": "Entretien hivernal commercial"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Disponibles 7j/7 durant la saison hivernale",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "hoursValue": "Nov–Avr : 24h/24 · 7j/7",
+    "formTitle": "Demande de devis complète"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Les réponses essentielles avant de réserver votre déneigement.",
+    "cta": "Demander un devis",
+    "items": [
+      {
+        "question": "Qu'est-ce que l'offre spéciale Innes-Est ?",
+        "answer": "Les entreprises situées dans le secteur du Parc industriel d'Orléans et sur Innes-Est bénéficient d'un tarif avantageux. Contactez-nous pour les détails."
+      },
+      {
+        "question": "Quand passez-vous après une tempête ?",
+        "answer": "Nous planifions les passages selon l'accumulation et la priorité des contrats. Les interventions commencent généralement pendant ou juste après la tempête, selon les conditions."
+      },
+      {
+        "question": "Offrez-vous des contrats saisonniers ?",
+        "answer": "Oui. Les contrats saisonniers couvrent toute la période hivernale et évitent d'avoir à appeler après chaque chute de neige."
+      },
+      {
+        "question": "Quels types d'établissements desservez-vous ?",
+        "answer": "Nous offrons du déneigement commercial à Orléans uniquement : stationnements, commerces, bureaux et zones industrielles."
+      },
+      {
+        "question": "Intervenez-vous pendant les heures d'ouverture ?",
+        "answer": "Oui. Nous planifions les passages selon vos heures d'activité pour limiter l'impact sur vos clients et employés."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Votre hiver en bonnes mains.",
+    "links": "Liens rapides",
+    "legal": "© 2026 Life is Good Construction. Tous droits réservés.",
+    "licensed": "Certifié & Assuré",
+    "followUs": "Suivez-nous",
+    "contact": "Contact"
+  },
+  "whatsapp": {
+    "tooltip": "Discuter sur WhatsApp",
+    "call": "Appeler maintenant",
+    "callShort": "Appeler",
+    "prefillMessage": "Bonjour, je souhaite un devis pour du déneigement commercial à Orléans."
+  },
+  "location": {
+    "eyebrow": "Zone desservie",
+    "title": "Orléans uniquement",
+    "subtitle": "Déneigement commercial sur le secteur d'Orléans — contactez-nous pour planifier une visite."
+  },
+  "stickyOffer": {
+    "label": "Devis gratuit — Orléans"
+  },
+  "servicesPage": {
+    "offerBanner": "Offre spéciale Parc industriel d'Orléans / Innes-Est — tarif avantageux",
+    "offerCta": "Demander l'offre"
+  }
+}

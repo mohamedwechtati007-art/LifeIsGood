@@ -1,0 +1,271 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Service",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "quote": "Free Quote",
+    "offerCta": "Industrial Park offer"
+  },
+  "specialOfferHero": {
+    "badge": "Special offer",
+    "title": "Orléans Industrial Park / Innes East",
+    "titleLine1": "Commercial snow removal",
+    "titleLine2": "Orléans",
+    "subtitle": "Preferential rates for the Industrial Park and Innes East — reliable 24/7 service across all of Orléans.",
+    "zone": "Commercial snow removal for all of Orléans — special offer above",
+    "ctaOffer": "See special offer",
+    "ctaQuote": "Free quote",
+    "ctaCall": "Call us",
+    "stats": [
+      { "value": "2.5 cm", "label": "Service starts at 2.5 cm snow" },
+      { "value": "7/7", "label": "Available in season" },
+      { "value": "Orléans", "label": "Service area" }
+    ]
+  },
+  "hero": {
+    "badge": "Professional & insured snow removal",
+    "title": "Your snow removal,",
+    "titleHighlight": "our priority.",
+    "subtitle": "Commercial snow removal in Orléans — reliable 24/7 service for businesses and industrial areas.",
+    "cta": "Get a free quote",
+    "ctaSecondary": "Our service",
+    "stats": {
+      "items": [
+        { "value": "2.5 cm", "label": "Service starts at 2.5 cm snow" },
+        { "value": "Orléans", "label": "Service area" },
+        { "value": "7/7", "label": "Available in season" },
+        { "value": "Local", "label": "Neighbourhood team" }
+      ]
+    }
+  },
+  "services": {
+    "title": "Our service",
+    "subtitle": "One service, fully dedicated to commercial snow removal",
+    "commercial": {
+      "title": "Commercial snow removal",
+      "desc": "Parking lots, commercial access and industrial areas. Priority 24/7 service to keep your clients, employees and visitors safe."
+    },
+    "features": [
+      "Commercial parking lots",
+      "Access and circulation routes",
+      "Industrial zones",
+      "Office buildings",
+      "Retail and shopping centres",
+      "Seasonal contracts"
+    ],
+    "cta": "Request a quote"
+  },
+  "timeline": {
+    "progressRail": "Your journey",
+    "title": "How it works",
+    "subtitle": "From request to clear commercial access — 5 simple steps",
+    "steps": [
+      {
+        "title": "Quote request",
+        "desc": "Fill in our online form or give us a call. Free, no-obligation quote with a fast response."
+      },
+      {
+        "title": "Contract & planning",
+        "desc": "We set up your seasonal contract and register your address in our automatic dispatch system."
+      },
+      {
+        "title": "Weather monitoring",
+        "desc": "Our team monitors forecasts 24/7. As soon as snowfall is expected, we schedule your intervention."
+      },
+      {
+        "title": "Rapid response",
+        "desc": "Our crews arrive after every storm. Parking lots and commercial access cleared to keep your operations running."
+      },
+      {
+        "title": "Report & satisfaction",
+        "desc": "Notification sent after each intervention. If you're not satisfied, we come back free of charge within 24h."
+      }
+    ],
+    "cta": "Get a quote"
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Industrial park and Innes East businesses trust us",
+    "items": [
+      {
+        "name": "Marie Lavoie",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "Impeccable service all winter for our business on Innes East. Parking lot always ready at opening. I recommend without hesitation."
+      },
+      {
+        "name": "Jean-Pierre Gagnon",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "We signed a commercial contract for our 80-spot parking lot. Fast, professional service with zero disruption to our business. Perfect!"
+      },
+      {
+        "name": "Sophie Côté",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "The special Innes East offer is a great deal. Local, responsive service after every storm."
+      },
+      {
+        "name": "Alexandre Bouchard",
+        "location": "Orléans",
+        "rating": 5,
+        "text": "The seasonal contract is truly worth it. I don't have to worry about snow at all. I get a notification after every intervention. Excellent service!"
+      }
+    ]
+  },
+  "promises": {
+    "title": "Your peace of mind, our commitment",
+    "subtitle": "A service designed to make winter easier for you",
+    "items": [
+      {
+        "title": "Reliable 24/7 service",
+        "desc": "Reliable around-the-clock service with frequent visits to keep your access clear at all times."
+      },
+      {
+        "title": "Customer service that listens",
+        "desc": "Attentive customer service, always ready to respond to your needs."
+      },
+      {
+        "title": "Advance notification",
+        "desc": "A notification system to let you know before the tractor arrives."
+      }
+    ]
+  },
+  "serviceAreas": {
+    "eyebrow": "Service area",
+    "title": "Orléans only",
+    "subtitle": "We focus our commercial snow removal service on the Orléans area.",
+    "mainArea": "Orléans, Ontario",
+    "cta": "Request special offer",
+    "specialOffer": {
+      "badge": "Special offer",
+      "title": "Orléans Industrial Park / Innes East",
+      "desc": "Preferential rates for businesses located in the Orléans Industrial Park sector and on Innes East."
+    }
+  },
+  "quote": {
+    "title": "Get your free quote",
+    "subtitle": "Commercial snow removal in Orléans — fast response, no obligation. Service starts at 2.5 cm of snow.",
+    "specialOffer": {
+      "badge": "Special offer",
+      "teaser": "Industrial park or Innes East? Preferential rates on request.",
+      "expand": "View offer",
+      "collapse": "Hide",
+      "apply": "Claim offer",
+      "applied": "Offer added",
+      "title": "Orléans Industrial Park / Innes East",
+      "desc": "Preferential rates for businesses in the industrial park or on Innes East. Quotes remain open to all of Orléans.",
+      "messagePrefix": "[SPECIAL OFFER — Industrial Park / Innes East] I would like the preferential rate for my business in this area.",
+      "emailSubject": "[Park/Innes East Offer] Snow removal quote request"
+    },
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "from": "Commercial site address",
+    "to": "City / Area",
+    "date": "Desired start date",
+    "type": "Type of business",
+    "requestType": "Request type",
+    "surface": "Approximate surface",
+    "surfacePlaceholder": "Ex. 40-spot parking lot, 2 truck access points",
+    "typeOptions": {
+      "parking": "Commercial parking lot",
+      "retail": "Retail store",
+      "office": "Office building",
+      "industrial": "Industrial zone",
+      "mall": "Shopping centre"
+    },
+    "requestOptions": {
+      "seasonal": "Seasonal contract",
+      "oneTime": "One-time intervention",
+      "emergency": "Post-storm emergency"
+    },
+    "message": "Additional information (surface area, access, specifics...)",
+    "submit": "Open Gmail and send",
+    "submitting": "Opening Gmail...",
+    "submitHint": "Gmail opens with your request already filled in — just click Send.",
+    "success": "Gmail is open with your request.",
+    "successHint": "In Gmail, review the message then click Send. We will reply promptly.",
+    "successOpenGmail": "Open Gmail again",
+    "emailSubject": "New snow removal quote request",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email"
+  },
+  "gallery": {
+    "title": "Our gallery",
+    "subtitle": "Discover our winter work",
+    "close": "Close",
+    "captions": {
+      "photo1": "Cleared parking lot",
+      "photo2": "Commercial access",
+      "photo3": "Industrial zone",
+      "photo4": "Night intervention",
+      "photo5": "Large parking lot",
+      "photo6": "Commercial winter service"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Available 7 days a week during winter season",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Business hours",
+    "hoursValue": "Nov–Apr: 24/7",
+    "formTitle": "Full quote request"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "The key answers before booking your snow removal service.",
+    "cta": "Request a quote",
+    "items": [
+      {
+        "question": "What is the Innes East special offer?",
+        "answer": "Businesses in the Orléans Industrial Park sector and on Innes East benefit from preferential rates. Contact us for details."
+      },
+      {
+        "question": "When do you come after a storm?",
+        "answer": "We schedule visits based on accumulation and contract priority. Interventions usually start during or shortly after the storm, depending on conditions."
+      },
+      {
+        "question": "Do you offer seasonal contracts?",
+        "answer": "Yes. Seasonal contracts cover the full winter period and remove the need to call after every snowfall."
+      },
+      {
+        "question": "What types of businesses do you serve?",
+        "answer": "We offer commercial snow removal in Orléans only: parking lots, retail, offices and industrial areas."
+      },
+      {
+        "question": "Do you work during business hours?",
+        "answer": "Yes. We schedule visits according to your operating hours to minimize impact on clients and staff."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Your winter in good hands.",
+    "links": "Quick links",
+    "legal": "© 2026 Life is Good Construction. All rights reserved.",
+    "licensed": "Certified & Insured",
+    "followUs": "Follow us",
+    "contact": "Contact"
+  },
+  "whatsapp": {
+    "tooltip": "Chat on WhatsApp",
+    "call": "Call now",
+    "callShort": "Call",
+    "prefillMessage": "Hello, I would like a quote for commercial snow removal in Orléans."
+  },
+  "location": {
+    "eyebrow": "Service area",
+    "title": "Orléans only",
+    "subtitle": "Commercial snow removal in Orléans — contact us to schedule a site visit."
+  },
+  "stickyOffer": {
+    "label": "Free quote — Orléans"
+  },
+  "servicesPage": {
+    "offerBanner": "Special offer: Orléans Industrial Park / Innes East — preferential rates",
+    "offerCta": "Request the offer"
+  }
+}
